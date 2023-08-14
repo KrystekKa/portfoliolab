@@ -1,11 +1,17 @@
 @import "normalize.css/normalize.css";
 @import "settings/fonts";
 @import "settings/colors";
+@import "header";
+@import "fourSteps";
+@import "aboutUs";
+@import "contact";
 
 * {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 body {
-  font-family: $base-font
+  font-family: $base-font;
+  background-color: white;
 }
