@@ -1,8 +1,58 @@
 @import "settings/fonts";
 @import "settings/colors";
 
-#what {
-  height: 500px;
-  width: 100%;
-  background-color: $color-light-grey;
+
+.fourSteps_container {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  .fourSteps_title {
+    display: flex;
+    flex-direction: column;
+    .title_text {
+      font-size: 38px;
+      color: $color-dark-grey;
+      margin-bottom: 35px;
+    }
+  }
+  .fourSteps_content {
+    margin-top: 40px;
+    background-color: $color-white;
+    width: 100vw;
+    .fourSteps_content-columns {
+      display: flex;
+      margin: 71px 414px 76px 414px;
+      .fourSteps_content-column {
+        display: flex;
+        flex-direction: column;
+        width: 130px;
+        text-align: center;
+        color: $color-dark-grey;
+        .column_title {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid $color-dark-grey;
+          font-size: 18px;
+        }
+        .column_text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .fourSteps_button {
+    margin-top: 35px;
+    margin-bottom: 80px;
+    padding: 13px 93px;
+    border: 1px solid $color-dark-grey;
+    text-decoration: none;
+    p {
+      font-size: 36px;
+      color: $color-dark-grey;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+  }
 }
