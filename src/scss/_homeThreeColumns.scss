@@ -1,0 +1,33 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+.columns_container {
+  height: 385px;
+  background-image: url("../assets/images/3 Columns Background@2x.png");
+  .columns {
+    max-width: 1900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .column {
+    text-align: center;
+    width: 334px;
+    color: $color-dark-grey;
+    .column_number {
+      font-size: 90px;
+      font-weight: lighter;
+      margin: 52px 0 10px 0;
+    }
+    .column_title {
+      font-size: 18px;
+      margin-bottom: 28px;
+    }
+    .column_text {
+      font-size: 16px;
+      font-family: $font-alt;
+      font-weight: lighter;
+      line-height: 25px;
+    }
+  }
+}
